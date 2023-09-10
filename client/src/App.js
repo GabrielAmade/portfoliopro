@@ -4,6 +4,7 @@ import Profile from "./PortfolioContainer/Home/Profile"
 import AboutMe from "./PortfolioContainer/AboutMe/AboutMe"
 import Resume from "./PortfolioContainer/Resume/Resume"
 import TestiCarousel from "./PortfolioContainer/TestiCarousel/TestiCarousel"
+import Contact from "./PortfolioContainer/Contact/Contact"
 
 
 
@@ -18,6 +19,7 @@ function App() {
       <AboutMe/>
       <Resume/>
       <TestiCarousel/>
+      <Contact/>
 
       
     </div>

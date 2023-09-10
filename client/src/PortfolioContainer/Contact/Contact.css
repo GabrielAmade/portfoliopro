@@ -1,0 +1,143 @@
+:root {
+    --blue: #07498A;
+    --grey: #E8E6E2;
+    --orange: #FF7F50;
+  }
+  
+  #contact {
+    padding-top: 55px;
+  }
+  
+  .main-container {
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .central-form {
+    max-width: 90%;
+    padding: 10px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  
+  .col-1 {
+    max-width: 40%;
+    margin-right: 60px;
+  }
+  
+  .contact-infos {
+    display: flex;
+    align-items: center;
+    background-color: var(--orange);
+    padding: 10px 20px;
+  }
+  
+  .contact-infos h2 {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    margin-right: 10px;
+  }
+  
+  .col-2 {
+    min-width: 60%;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    min-width: 60%;
+  }
+  
+  label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  input,
+  textarea {
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: black;
+    background-color: transparent;
+    margin-bottom: 16px;
+    transition: border-bottom-color 0.3s ease-in-out;
+  }
+  
+  input:focus,
+  textarea:focus {
+    outline: none;
+    border-bottom-color: var(--blue);
+  }
+  
+  .send-btn {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: var(--grey);
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: var(--orange);
+  }
+  
+  .validation-message {
+    font-family: 'Poppins', sans-serif;
+    color: var(--orange);
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 1024px) {
+    .col-1 {
+        max-width: 50%;
+        margin-right: 0px;
+    }
+  
+    .contact-infos {
+      margin-bottom: 30px;
+    }
+  }
+  
+  @media (max-width: 845px) {
+    .central-form {
+        flex-direction: column;
+        margin: 50px 30px;
+        padding: 0;
+        max-width: 100%;
+    }
+  
+    .contact-infos {
+      margin-bottom: 0px;
+    }
+  
+    .col-1 {
+        max-width: 100%;
+    }
+    .col-2 {
+        max-width: 100%;
+        margin: 50px 0;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .contact-infos {
+        flex-wrap: wrap;
+    }
+  }
+  
