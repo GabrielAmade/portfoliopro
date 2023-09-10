@@ -1,0 +1,20 @@
+{
+    "navbar_about_me": "Chi sono",
+    "navbar_experiences": "Esperienze",
+    "navbar_contact": "Contatto",
+
+    "greeting": "Ciao,",
+    "tagline": "Sono Gabriel, un web developer full-stack e appassionato di SEO.",
+
+    "about_me": "Chi sono",
+    "description_title_1": "Creatore Web, ",
+    "description_title_2": "Appassionato di Codice",
+    "description": "Sono uno sviluppatore web junior dipendente dal codice in tutte le sue forme. Recentemente laureato da un programma di apprendistato di un anno, ora sto cercando una posizione.\n\nSono anche un redattore web SEO. Ho scritto centinaia di articoli per quasi 2 anni sulla piattaforma ComeUp.\n\nAvendo avuto l'opportunità di vivere all'estero per diversi anni, sono bilingue in inglese (e adoro i panini al burro di arachidi e marmellata).",
+    "general_skills": [
+        "Buona esperienza con i framework React ed Express",
+        "Dedicato a fornire un'esperienza utente piacevole e fluida",
+        "Sempre attento alle nuove tecnologie e agli ultimi sviluppi"
+    ]
+      
+      
+}

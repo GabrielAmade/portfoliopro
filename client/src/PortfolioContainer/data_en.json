@@ -1,0 +1,104 @@
+{
+
+    "navbar_about_me": "About",
+    "navbar_experiences": "Experiences",
+    "navbar_contact": "Contact",
+
+
+
+
+    "greeting": "Hello,",
+    "tagline": "I am Gabriel, a full-stack web developer and passionate about SEO",
+
+    "about_me": "About",
+    "description_title_1": "Web Creator, ",
+    "description_title_2": "Code Enthusiast",
+    "description": "I am a Junior Web Developer addicted to code in all its forms. Recently graduated from a one-year apprenticeship program, I am now looking for a position.\n\nI am also an SEO web writer. I have written hundreds of articles for nearly 2 years on the ComeUp platform.\n\nHaving had the opportunity to live abroad for several years, I am bilingual in English (and I love peanut butter and jelly sandwiches).",
+
+    "general_skills": [
+        "Good experience with React and Express frameworks",
+        "Dedicated to providing a pleasant and smooth user experience",
+        "Always keeping an eye on new technologies and the latest advancements"
+    ],
+
+
+
+
+
+    "experiences": "Experiences",
+
+    "bullet_name_1": "Education",
+    "bullet_name_2": "Work experience",
+    "bullet_name_3": "Technologies",
+    "bullet_name_4": "Projects",
+    "bullet_name_5": "Interests",
+
+
+    "studies_name_1": "Web Developer Program with OpenClassroom - Apprenticeship",
+    "studies_year_from_1": "2022",
+    "studies_year_to_1": "2023",
+    "studies_details_1": "400 hours of training over 12 months // Remote learning // Key topics covered: HTML-CSS, Javascript, React, Node JS, Agile Methodology",
+
+    "studies_name_2": "Full Stack Web Developer Training",
+    "studies_year_from_2": "04",
+    "studies_year_to_2": "07/2022",
+    "studies_details_2": "In-person training // Learning the basics of HTML/CSS, JS, PHP, and Laravel // Object-oriented programming // API usage",
+
+    "studies_name_3": "Master in Urban Design",
+    "studies_year_from_3": "2011",
+    "studies_year_to_3": "2013",
+    "studies_details_3": "University of Aix-Marseille // Distinction: Very good",
+
+    "work_experience_heading": "Santé Formapro // Full-Stack Web Developer",
+    "work_experience_subheading": "Apprenticeship for one year",
+    "work_experience_list_1": "- Integration of e-learning courses",
+    "work_experience_list_2": "- Creation of new PHP features for the platform",
+    "work_experience_list_3": "- Management and creation of WordPress sites",
+    "work_experience_list_4": "- SEO audits and optimization of sites for the SFP Expansion group",
+
+
+    "project_name_1": "Create a travel agency homepage with HTML & CSS",
+    "project_details_1": "Integrate the site's mockup in HTML and CSS // Respect the provided visuals // Make the interface fully responsive for smartphones and tablets",
+  
+    "project_name_2": "Create a dynamic web page with JavaScript",
+    "project_details_2": "Create the page to present the architect's work // Add an administrator login page // Display a modal window to add and delete new projects",
+  
+    "project_name_3": "Create a real estate rental web application with React",
+    "project_details_3": "Create the pages and components of the site // Set up routes to connect these pages // Add carousel and collapse animations",
+
+    
+    "hobby_title_1": "Writing",
+    "hobby_description_1": "My passion for words led me to a thrilling experience as a freelance writer for two years on the Come up platform. I had the pleasure of writing dozens of articles on a variety of topics, from well-being to web marketing to photography.",
+
+    "hobby_title_2": "Cinema",
+    "hobby_description_2": "I am captivated by the art of cinema and its moving stories, finding inspiration and escape in every scene.",
+
+    "hobby_title_3": "Travel",
+    "hobby_description_3": "The call of adventure led me to live abroad for five years, exploring several very different countries (Australia, New Zealand, Bali, the Fiji Islands, Thailand, Malaysia, Singapore, Scotland, Canada...) and discovering a multitude of cultures.",
+
+
+    "testimonial_name_1": "Guillaume G.",
+    "testimonial_name_title_1": "Educational Director",
+    "testimonial_description_1": "Through his approach throughout the courses, workshops, and projects, Gabriel has demonstrated to the entire teaching team a clear desire to do well and a willingness to have a deep understanding of the concepts he puts into practice. This curiosity and determination to acquire solid fundamentals make Gabriel, in my opinion, a very good junior profile.",
+
+    "testimonial_name_2": "Philippe L.",
+    "testimonial_name_title_2": "Photographer",
+    "testimonial_description_2": "Gabriel writes very, very well, with a natural writing style and a strong understanding of SEO fundamentals. He does his research on the subject, and the result is an article that is the opposite of the bland content that is often produced by other writers on the platform.",
+
+    "testimonial_name_3": "Adrien C.",
+    "testimonial_name_title_3": "Content creator",
+    "testimonial_description_3": "Since I started working with Gabriel, the engagement on our articles and the number of comments has increased significantly. His texts are perfectly written, interconnected, well-structured, and easy to read. Gabriel is a professional and it makes all the difference. (One of our articles was even picked up by the print media!) Thank you again, Gabriel.",
+
+
+    "contact_name": "Name",
+    "contact_email": "Email",
+    "contact_message": "Message",
+    "contact_send":"Send"
+
+
+
+
+
+}
+
+

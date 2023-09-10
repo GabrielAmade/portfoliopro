@@ -1,0 +1,91 @@
+:root {
+    --blue: #07498a;
+    --grey: #e8e6e2;
+    --orange: #ff7f50;
+  }
+  
+  .carousel-container {
+    width: 85%;
+    margin: 100px auto;
+    padding: 80px 0;
+    background-image: url("../../assets/TestiCarousel/testimonial-background.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .testi-item {
+    background-color: var(--grey);
+    padding: 30px;
+    max-width: 650px;
+    margin: 0 auto;
+  }
+  
+  .testi-item p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .testi-item p .fa-quote-left,
+  .testi-item p .fa-quote-right {
+    margin: 0 5px;
+    color: var(--orange);
+  }
+  
+  .client-info {
+    position: relative;
+    padding-left: 80px;
+    padding-top: 5px;
+    min-height: 60px;
+  }
+  
+  .client-info img {
+    height: 70px;
+    width: 70px !important;
+    padding: 3px;
+    border: 2px solid transparent;
+    border-color: black;
+    left: 0;
+    top: 0;
+    border-radius: 50%;
+    position: absolute;
+  }
+  
+  .client-info h5 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 26px;
+    margin: 0 0 2px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .client-info p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  
+  @media (max-width: 960px) {
+    .testi-item {
+        max-width: 500px;
+    }
+  }
+  
+  @media (max-width: 760px) {
+    .carousel-container {
+        width: 100%;
+    }
+  
+    .testi-item {
+        max-width: 330px;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .testi-item {
+        max-width: 290px;
+    }
+  }
+  

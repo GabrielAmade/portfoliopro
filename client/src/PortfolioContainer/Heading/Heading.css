@@ -1,0 +1,40 @@
+:root {
+    --blue: #07498A;
+    --grey: #E8E6E2;
+    --orange: #FF7F50;
+  }
+
+.heading-container {
+    padding: 20px 100px; 
+    margin-block: 50px;
+}
+
+.screen-heading {
+    font-size: 50px;
+    color: black;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.heading-separator {
+    display: flex;
+    justify-content: center;
+}
+
+.separator-line {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin-bottom: 50px;
+}
+
+
+
+@media (max-width: 767px) {
+
+    .screen-heading {
+        font-size: 32px;
+    }
+
+   
+
+}

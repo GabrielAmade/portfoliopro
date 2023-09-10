@@ -1,0 +1,57 @@
+/* Navbar.css */
+:root {
+    --blue: #07498A;
+    --grey: #E8E6E2;
+    --orange: #FF7F50;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px; 
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: var(--grey);
+    border-bottom: 1px solid black;
+  }
+  
+  .navbar-left {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-right a {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    margin-right: 50px; 
+    text-decoration: none;
+  }
+  
+  .navbar-right a:last-child {
+    margin-right: 0;
+  }
+
+  .navbar-right a:hover {
+    color: var(--orange);
+  }
+  
+  /* Media Queries */
+  
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 10px 20px; 
+      flex-direction: column;
+    }
+  
+    .navbar-right a {
+      margin: 10px 10px 0 0;
+    }
+  }
+  

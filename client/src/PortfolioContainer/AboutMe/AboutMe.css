@@ -1,0 +1,108 @@
+:root {
+    --blue: #07498A;
+    --grey: #E8E6E2;
+    --orange: #FF7F50;
+  }
+  
+  #aboutme {
+    padding-top: 40px;
+  }
+  
+  .about-me-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 100px;
+  }
+  
+  .about-me-parent {
+    width: 90%;
+  }
+  
+  .about-me-columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .about-me-content,
+  .about-me-general-skills {
+    width: 50%;
+  }
+  
+  .about-me-content {
+    margin-right: 80px;
+  }
+  
+  .about-me-description-title > h2:first-child {
+    color: var(--orange);
+    margin: 10px 0 20px;
+  }
+  
+  .about-me-description-title > h2:last-child {
+    color: var(--grey);
+    background-color: var(--orange);
+    display: inline-block;
+    padding: 5px 10px;
+    margin-bottom: 35px;
+  }
+  
+  .about-me-content a {
+    display: block;
+    margin-top: 20px;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px;
+  }
+  
+  .about-me-content a:hover {
+    color: var(--orange);
+    text-decoration: none;
+  }
+  
+  .about-me-cv {
+    margin-top: 40px;
+  }
+  
+  .about-me-general-skills > ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: inline;
+  }
+  
+  .about-me-general-skills li {
+    padding-block: 25px;
+    padding-inline: 10px;
+    border-bottom: 1px solid black;
+  }
+  
+  .about-me-general-skills li:hover {
+    color: var(--grey);
+    background-color: var(--blue);
+  }
+  
+  
+  /*Media Queries*/
+  
+  
+  @media screen and (max-width: 768px) {
+    .about-me-container {
+      justify-content: center;
+    }
+  
+    .about-me-columns {
+      flex-direction: column;
+    }
+  
+    .about-me-cv {
+      margin-top: 10px;
+      margin-bottom: 40px;
+    }
+  
+    .about-me-content,
+    .about-me-general-skills {
+      width: 100%;
+      margin: 0;
+    }
+  }
+  

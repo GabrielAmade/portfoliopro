@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  overflow-y: overlay;
+  font-family: "Poppins Regular";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--grey);
+}
+
+html {
+  scroll-behavior: smooth;
+}
