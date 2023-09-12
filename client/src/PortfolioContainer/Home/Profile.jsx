@@ -7,7 +7,6 @@ import data_fr from "../data_fr.json";
 import data_en from "../data_en.json";
 import data_it from "../data_it.json";
 
-
 const Profile = () => {
   const [language, setLanguage] = useState("fr");
   const data =
@@ -46,7 +45,6 @@ const Profile = () => {
             </a>
           </div>
         </div>
-
         <div className="profile-picture">
           <div className="background-color"></div>
           <img src={profilephoto} alt="photo_profil" />

@@ -19,9 +19,7 @@ function App() {
       <AboutMe/>
       <Resume/>
       <TestiCarousel/>
-      <Contact/>
-
-      
+      <Contact/>   
     </div>
   );
 }

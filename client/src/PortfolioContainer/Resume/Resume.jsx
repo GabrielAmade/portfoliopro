@@ -62,11 +62,11 @@ function Resume() {
     { skill: "HTML", ratingPercentage: 90 },
     { skill: "CSS", ratingPercentage: 90 },
     { skill: "Javascript", ratingPercentage: 85 },
-    { skill: "React JS", ratingPercentage: 65 },
-    { skill: "Node JS", ratingPercentage: 60 },
-    { skill: "Express JS", ratingPercentage: 60 },
-    { skill: "Mongo DB", ratingPercentage: 60 },
-    { skill: "PHP", ratingPercentage: 50 },
+    { skill: "React JS", ratingPercentage: 70 },
+    { skill: "Node JS", ratingPercentage: 55 },
+    { skill: "Express JS", ratingPercentage: 55 },
+    { skill: "Mongo DB", ratingPercentage: 55 },
+    { skill: "PHP", ratingPercentage: 40 },
   ];
 
   const projectsDetails = [
