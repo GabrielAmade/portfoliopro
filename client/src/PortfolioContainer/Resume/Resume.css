@@ -193,7 +193,7 @@
     background-image: url("../../assets/Resume/project-react-list.png"); /* Change to appropriate image URL */
     opacity: 1;
     z-index: 1000;
-    top: 340px;
+    top: 1020px;
 
   }
   
@@ -249,7 +249,7 @@
         top: 400px;
       }
     .project-description.project-description-3:hover + .project-image-3 {
-        top: 125px;
+        top: -110px;
       }
 
     .resume-main-heading a {
@@ -312,7 +312,7 @@
       }
 
     .project-description.project-description-3:hover + .project-image-3 {
-        top: 380px;
+        top: 0px;
       }
 
     .resume-main-heading a {
