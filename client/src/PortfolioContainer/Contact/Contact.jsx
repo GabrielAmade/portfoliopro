@@ -1,14 +1,14 @@
 import React, { useEffect, useState, useRef } from "react";
-import Heading from "../Heading/Heading";
+import emailjs from "@emailjs/browser";
 import "./Contact.css";
+import Heading from "../Heading/Heading";
 import data_fr from "../data_fr.json";
 import data_en from "../data_en.json";
 import data_it from "../data_it.json";
-import emailjs from "@emailjs/browser";
 
 function Contact() {
   const [language, setLanguage] = useState("en");
-  const [message, setMessage] = useState(""); // État pour le message de validation/erreur
+  const [message, setMessage] = useState("");
 
   useEffect(() => {
     const detectedLanguage = navigator.language.split("-")[0];
@@ -37,14 +37,21 @@ function Contact() {
     const userMessage = form.current.user_message.value;
 
     if (!userName || !userEmail || !userMessage) {
-      setMessage("Merci de remplir tous les champs.");
-      return; // Arrêtez l'envoi du formulaire si un champ est vide
+      setMessage("Merci de remplir tous les champs du formulaire.");
+      return;
     }
 
     emailjs
-      .sendForm("service_6kzwtzq", "template_ao0lnyi", form.current, "F2LRmPkFp4dOKM1Bf")
+      .sendForm(
+        "service_6kzwtzq",
+        "template_ao0lnyi",
+        form.current,
+        "F2LRmPkFp4dOKM1Bf"
+      )
       .then((result) => {
-        setMessage("Merci de m'avoir contacté. Je reviens vers vous dès que possible");
+        setMessage(
+          "Merci de m'avoir contacté. Je reviens vers vous dès que possible."
+        );
         console.log(result.text);
       })
       .catch((error) => {
@@ -60,27 +67,28 @@ function Contact() {
       <div className="central-form">
         <div className="col-1">
           <div className="contact-infos">
-            <h2>Linkedin</h2>
-            <h2>GitHub</h2>
-            <h2>gabrielamade@icloud.com</h2>
+            <h2>
+              <a href="https://linkedin.com/in/gabriel-amade">Linkedin</a>
+            </h2>
+            <h2>
+              <a href="https://github.com/GabrielAmade">GitHub</a>
+            </h2>
+            <h2>
+              <a href="mailto:gabrielamade@icloud.com">
+                gabrielamade@icloud.com
+              </a>
+            </h2>
           </div>
         </div>
         <div className="col-2">
           <div className="form">
             <form ref={form} onSubmit={sendEmail}>
               <label htmlFor="name">{data.contact_name}</label>
-              <input type="text" name="user_name"  />
+              <input type="text" name="user_name" />
               <label htmlFor="email">{data.contact_email}</label>
-              <input type="email" name="user_email"  />
+              <input type="email" name="user_email" />
               <label htmlFor="message">{data.contact_message}</label>
-              <textarea
-                type="text"
-                name="user_message"
-                cols="30"
-                rows="2"
-                
-              />
-              {/* Afficher le message de validation/erreur */}
+              <textarea type="text" name="user_message" cols="30" rows="2" />
               <div className="send-btn">
                 <button type="submit">{data.contact_send}</button>
               </div>

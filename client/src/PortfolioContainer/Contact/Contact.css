@@ -38,6 +38,16 @@
     font-family: "Poppins", sans-serif;
     margin-right: 10px;
   }
+
+ a{
+     color: black;
+ }
+
+ a:hover{
+    color: var(--grey);
+    text-decoration: none;
+    
+}
   
   .col-2 {
     min-width: 60%;

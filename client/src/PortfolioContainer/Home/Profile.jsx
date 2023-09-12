@@ -41,7 +41,7 @@ const Profile = () => {
             <a href="https://github.com/GabrielAmade">
               <FontAwesomeIcon icon={faGithub} className="fa-3x icon" />
             </a>
-            <a href="/">
+            <a href="https://linkedin.com/in/gabriel-amade">
               <FontAwesomeIcon icon={faLinkedin} className="fa-3x icon" />
             </a>
           </div>
