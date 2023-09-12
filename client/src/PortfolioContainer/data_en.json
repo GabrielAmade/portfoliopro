@@ -4,11 +4,8 @@
     "navbar_experiences": "Experiences",
     "navbar_contact": "Contact",
 
-
-
-
     "greeting": "Hello,",
-    "tagline": "I am Gabriel, a front-end developer and passionate about web writing.",
+    "tagline": "I am Gabriel, a full-stack web developer and passionate web writer.",
 
     "about_me": "About",
     "description_title_1": "Web Creator, ",
@@ -21,9 +18,7 @@
         "Always keeping an eye on new technologies and the latest advancements"
     ],
 
-
-
-
+    "download_cv" : "Download my CV",
 
     "experiences": "Experiences",
 
@@ -94,10 +89,6 @@
     "contact_email": "Email",
     "contact_message": "Message",
     "contact_send":"Send"
-
-
-
-
 
 }
 

@@ -4,7 +4,7 @@
     "navbar_contact": "Contatto",
 
     "greeting": "Ciao,",
-    "tagline": "Sono Gabriel, un sviluppatore front-end e appassionato di scrittura web.",
+    "tagline": "Sono Gabriel, uno sviluppatore web full-stack e uno scrittore web appassionato.",
 
     "about_me": "Chi sono",
     "description_title_1": "Creatore Web, ",
@@ -14,7 +14,75 @@
         "Buona esperienza con i framework React ed Express",
         "Dedicato a fornire un'esperienza utente piacevole e fluida",
         "Sempre attento alle nuove tecnologie e agli ultimi sviluppi"
-    ]
+    ],
+
+    "download_cv" : "Scarica il mio CV",
+    
       
-      
+    "experiences": "Esperienze",
+
+    "bullet_name_1": "Diplomi",
+    "bullet_name_2": "Esperienze Professionali",
+    "bullet_name_3": "Tecnologie",
+    "bullet_name_4": "Progetti",
+    "bullet_name_5": "Interessi",
+
+    "studies_name_1": "Corso di Formazione in Sviluppo Web presso Open Classroom in Alternanza",
+    "studies_year_from_1": "2022",
+    "studies_year_to_1": "2023",
+    "studies_details_1": "400 ore di formazione in 12 mesi // Formazione a distanza // Principali argomenti trattati: HTML-CSS, Javascript, React, Node JS, Metodologia Agile",
+
+    "studies_name_2": "Corso di Formazione in Sviluppo Web Full Stack",
+    "studies_year_from_2": "04",
+    "studies_year_to_2": "07/2022",
+    "studies_details_2": "Formazione in presenza // Apprendimento delle basi di HTML/CSS, JS, PHP e Laravel // Programmazione Orientata agli Oggetti // Utilizzo delle API",
+
+    "studies_name_3": "Master in Design Urbano",
+    "studies_year_from_3": "2011",
+    "studies_year_to_3": "2013",
+    "studies_details_3": "Università di Aix-Marseille // Con Menzione Benissimo",
+
+    "work_experience_heading": "Santé Formapro // Sviluppatore Web Full-Stack",
+    "work_experience_subheading": "Contratto di un anno in alternanza",
+    "work_experience_list_1": "- Integrazione di corsi di formazione online",
+    "work_experience_list_2": "- Creazione di nuove funzionalità in PHP per la piattaforma",
+    "work_experience_list_3": "- Gestione e creazione di siti Wordpress",
+    "work_experience_list_4": "- Realizzazione di audit e ottimizzazione SEO dei siti del gruppo SFP Expansion",
+
+    "project_name_1": "Creazione della homepage di un'agenzia di viaggi con HTML & CSS",
+    "project_details_1": "Integrazione del layout del sito in HTML e CSS // Rispetto del design fornito // Rendere l'interfaccia perfettamente responsiva per smartphone e tablet",
+
+    "project_name_2": "Creazione di una pagina web dinamica con JavaScript",
+    "project_details_2": "Creazione della pagina di presentazione dei lavori dell'architetto // Aggiunta di una pagina di accesso per l'amministratore del sito // Visualizzazione di una finestra modale per aggiungere e rimuovere nuovi progetti",
+
+    "project_name_3": "Creazione di un'applicazione web per la locazione immobiliare con React",
+    "project_details_3": "Creazione delle pagine e dei componenti del sito // Implementazione delle route per collegare queste pagine // Aggiunta di animazioni per il carosello e il collapse",
+
+    "hobby_title_1": "Scrittura",
+    "hobby_description_1": "La mia passione per le parole mi ha portato a un'entusiasmante esperienza come scrittore freelance per due anni sulla piattaforma Come up. Ho avuto il piacere di scrivere decine di articoli su una varietà di argomenti, dal benessere al web marketing alla fotografia.",
+
+    "hobby_title_2": "Cinema",
+    "hobby_description_2": "Sono affascinato dall'arte cinematografica e dalle sue storie in movimento, trovando ispirazione ed evasione in ogni scena.",
+
+    "hobby_title_3": "Viaggi",
+    "hobby_description_3": "La chiamata dell'avventura mi ha portato a vivere per cinque anni all'estero, esplorando diversi paesi molto diversi (Australia, Nuova Zelanda, Bali, Fiji, Thailandia, Malesia, Singapore, Scozia, Canada...) e scoprendo molte culture.",
+
+    "testimonial_name_1": "Guillaume G.",
+    "testimonial_name_title_1": "Direttore Pedagogico",
+    "testimonial_description_1": "Attraverso il suo approccio durante i corsi, i laboratori e i progetti, Gabriel ha dimostrato all'intero team pedagogico una chiara volontà di fare bene e una profonda comprensione dei concetti che mette in pratica. Questa curiosità e questa determinazione nell'acquisire solide basi fanno di Gabriel, a mio parere, un ottimo profilo junior.",
+
+    
+    "testimonial_name_2": "Philippe L.",
+    "testimonial_name_title_2": "Fotografo",
+    "testimonial_description_2": "Gabriel scrive molto bene, con una scrittura naturale e una buona comprensione della redazione SEO. Realizza un lavoro di ricerca approfondito sull'argomento, e il risultato è un articolo molto diverso dalla produzione standard spesso offerta da altri scrittori sulla piattaforma.",
+
+    "testimonial_name_3": "Adrien C.",
+    "testimonial_name_title_3": "Content Creator",
+    "testimonial_description_3": "Da quando lavoro con Gabriel, l'coinvolgimento nei nostri articoli e il numero di commenti hanno fatto un enorme salto in avanti. I suoi testi sono ben scritti, ben strutturati e facili da leggere. Gabriel è un professionista e fa la differenza. (Uno dei nostri articoli è stato addirittura pubblicato su carta stampata!) Ancora una volta, un enorme grazie a Gabriel.",
+
+    "contact_name": "Nome",
+    "contact_email": "Email",
+    "contact_message": "Messaggio",
+    "contact_send": "Invia"
+        
 }

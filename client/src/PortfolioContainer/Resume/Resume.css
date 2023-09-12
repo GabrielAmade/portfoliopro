@@ -234,7 +234,7 @@
   }
   
   /* Media Queries */
-  @media (max-width: 1100px) {
+  @media (max-width: 1280px) {
     .resume-card {
       width: 880px;
     }
@@ -260,7 +260,7 @@
     }
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 940px) {
     .resume-container {
       margin: 100px 0;
     }
@@ -290,7 +290,7 @@
       margin: 30px 0;
     }
     .selected-bullet {
-      width: 50%;
+      width: 70%;
     }
     .heading-container {
       padding: 5px 0 0 10px;
@@ -319,11 +319,11 @@
       font-size: 13px;
     }
     .resume-heading-description {
-      font-size: 11px;
+      font-size: 12px;
     }
   }
   
-  @media (max-width: 425px) {
+  @media (max-width: 500px) {
     .selected-bullet {
       width: 100%;
     }
@@ -344,3 +344,9 @@
       }
   }
   
+  @media (max-width: 380px) {
+    .resume-heading-description {
+      font-size: 11px;
+    }
+
+  }
